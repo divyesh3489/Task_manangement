@@ -46,11 +46,6 @@ class TaskCreate(BaseModel):
         if not value or value.strip() == "":
             raise ValueError("title cannot be Empty")
         return value
-    @validator("due_date", pre=True, always=True)
-    def validate_due_date(cls, value):
-        if value is None:
-            raise ValueError("due_date cannot be Empty")
-        return value
 
 class TaskUpdate(BaseModel):
     """
@@ -69,13 +64,6 @@ class TaskUpdate(BaseModel):
             raise ValueError("title cannot be Empty")
         return value
 
-    @validator("due_date", pre=True, always=True)
-    def validate_due_date(cls, value):
-        if value is not None and value == "":
-            raise ValueError("due_date cannot be Empty")
-        return value
-    
- 
     
 class TaskPriporityUpdate(BaseModel):
     """

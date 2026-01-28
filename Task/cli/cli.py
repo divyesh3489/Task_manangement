@@ -85,7 +85,7 @@ def create_task():
     except ValueError:
         print("Invalid input. Please enter a number between 1 and 5.")
         return
-    due_date = input("Enter due date (YYYY-MM-DDTHH:MM:SS) : ")
+    due_date = input("Enter due date (YYYY-MM-DDTHH:MM:SS) : ") or None
     payload = {
         "title": title,
         "description": description,

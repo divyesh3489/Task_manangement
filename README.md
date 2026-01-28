@@ -91,6 +91,8 @@ http://localhost:8000/api/v1
 
 ### Starting the CLI
 ```
+activate your virtual environment and run:
+make sure the API server is running, then execute:
 python cli/cli.py
 ```
 
