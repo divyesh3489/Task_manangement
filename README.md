@@ -28,7 +28,7 @@ This project involves building a RESTful Task Management system that includes bo
     ```
 5. Insert Dummy Data (optional):
    ```
-    python insert_dummy_data.py
+    python dummy_data.py
     ```
 6. Run the API server:
    ```
