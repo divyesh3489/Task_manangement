@@ -23,6 +23,7 @@ This project involves building a RESTful Task Management system that includes bo
     ```
 4. Apply database migrations (if applicable):
    ```
+    cd Task
     alembic upgrade head
     ```
 5. Insert Dummy Data (optional):
