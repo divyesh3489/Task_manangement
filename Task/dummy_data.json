@@ -1,0 +1,84 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Design database schema",
+      "description": "Create and design the database schema for the task management system",
+      "status": "completed",
+      "priority": "high",
+      "due_date": "2025-12-15T00:00:00",
+      "created_at": "2025-11-01T10:30:00",
+      "updated_at": "2025-12-15T14:20:00"
+    },
+    {
+      "id": 2,
+      "title": "Implement API endpoints",
+      "description": "Build REST API endpoints for CRUD operations on tasks",
+      "status": "in_progress",
+      "priority": "urgent",
+      "due_date": "2026-02-01T00:00:00",
+      "created_at": "2025-12-01T09:15:00",
+      "updated_at": "2026-01-25T16:45:00"
+    },
+    {
+      "id": 3,
+      "title": "Write unit tests",
+      "description": "Create comprehensive unit tests for all API endpoints and business logic",
+      "status": "pending",
+      "priority": "high",
+      "due_date": "2026-02-10T00:00:00",
+      "created_at": "2025-12-20T11:00:00",
+      "updated_at": "2025-12-20T11:00:00"
+    },
+    {
+      "id": 4,
+      "title": "Setup CI/CD pipeline",
+      "description": "Configure continuous integration and deployment pipeline",
+      "status": "pending",
+      "priority": "medium",
+      "due_date": "2026-02-28T00:00:00",
+      "created_at": "2026-01-01T08:30:00",
+      "updated_at": "2026-01-01T08:30:00"
+    },
+    {
+      "id": 5,
+      "title": "Create user documentation",
+      "description": "Write comprehensive documentation for end users including tutorials and FAQ",
+      "status": "hold",
+      "priority": "low",
+      "due_date": "2026-03-15T00:00:00",
+      "created_at": "2026-01-05T13:20:00",
+      "updated_at": "2026-01-20T10:15:00"
+    },
+    {
+      "id": 6,
+      "title": "Fix login bug",
+      "description": "Debug and fix the authentication issue in the login module",
+      "status": "in_progress",
+      "priority": "urgent",
+      "due_date": "2026-01-30T00:00:00",
+      "created_at": "2026-01-24T14:00:00",
+      "updated_at": "2026-01-27T09:30:00"
+    },
+    {
+      "id": 7,
+      "title": "Performance optimization",
+      "description": "Optimize database queries and API response times",
+      "status": "pending",
+      "priority": "medium",
+      "due_date": null,
+      "created_at": "2026-01-10T15:45:00",
+      "updated_at": "2026-01-10T15:45:00"
+    },
+    {
+      "id": 8,
+      "title": "Client feedback integration",
+      "description": "Implement feedback from beta testers and clients",
+      "status": "cancelled",
+      "priority": "low",
+      "due_date": "2025-12-31T00:00:00",
+      "created_at": "2025-11-15T12:00:00",
+      "updated_at": "2026-01-20T11:30:00"
+    }
+  ]
+}
